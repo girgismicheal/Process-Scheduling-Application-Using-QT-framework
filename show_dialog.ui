@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SHOW_Dialog</class>
+ <widget class="QDialog" name="SHOW_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>295</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+       </property>
+       <property name="text">
+        <string>AVA WATING:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">background-color : #fff6da;
+font-size: 19px;
+font-style: blod ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> border-style: solid;
+ border-width:1px;
+ border-radius: 50px;
+ border-color: red;
+ max-width: 1000px;
+ max-height: 100px;
+ min-width: 100px;
+ min-height: 100px;
+color: #FFFFFF;
+background-color: #233567;
+font-size: 19px;
+font-style: blod ;</string>
+     </property>
+     <property name="text">
+      <string>exit</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>10</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
