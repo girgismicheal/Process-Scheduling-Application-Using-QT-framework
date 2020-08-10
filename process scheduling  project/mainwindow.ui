@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;</string>
+        </property>
+        <property name="text">
+         <string>Priority</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBox_priority">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;</string>
+        </property>
+        <property name="text">
+         <string>Time Slice</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_time_slice">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;</string>
+        </property>
+        <property name="text">
+         <string>Burst Time (ms)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_Burst_Time_burst">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;</string>
+        </property>
+        <property name="text">
+         <string>Arrival Time</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_Arrival_Time_Arrival">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="2" rowspan="5">
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <widget class="QTextEdit" name="textEdit_process">
+        <property name="styleSheet">
+         <string notr="true">background-color : #fff6da;</string>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 20px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;</string>
+        </property>
+        <property name="text">
+         <string>Process Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Process_Name">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>Choose the algorithm</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FCFS</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Round Robin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Priority Pre-emptive</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Priority Non Pre-emptive</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shortest Job First Pre-emptive</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shortest Job First non Pre-emptive</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton_add_process">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>102</width>
+        <height>102</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1002</width>
+        <height>102</height>
+       </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> border-style: solid;
+ border-width:1px;
+ border-radius: 50px;
+ border-color: red;
+ max-width: 1000px;
+ max-height: 100px;
+ min-width: 100px;
+ min-height: 100px;
+color: #FFFFFF;
+background-color: #233567;
+font-size: 19px;
+font-style: blod ;</string>
+      </property>
+      <property name="text">
+       <string>Add Pocess</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #233567;</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRun"/>
+   <addaction name="separator"/>
+   <addaction name="actionreset"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionRun">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/new/prefix1/C:/Users/compuland/Downloads/download.png</normaloff>:/new/prefix1/C:/Users/compuland/Downloads/download.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+  </action>
+  <action name="actionreset">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/new/prefix1/C:/Users/compuland/Downloads/recurring-appointment.png</normaloff>:/new/prefix1/C:/Users/compuland/Downloads/recurring-appointment.png</iconset>
+   </property>
+   <property name="text">
+    <string>reset</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
