@@ -64,6 +64,15 @@ This algorithm gives the shortest process higher priority, but as it Is non-pre-
 |------------------------------|------------------------------|------------------------------|
 | ![Image](Image/Picture3.png) | ![Image](Image/Picture4.png) | ![Image](Image/Picture5.png) |
 
+| GUI interface                |
+|------------------------------|
+| ![Image](Image/Picture3.png) |
+
+| Process history                | Average waiting time         |
+|--------------------------------|------------------------------|
+| ![Image](Image/Picture7.png)   | ![Image](Image/Picture8.png) |
+
+
 ### User Guide
 1.	The user **should** choose the algorithm.
 2.	User starts **adding processes data** (Name, Burst Time, Arrival Time, and Priority if any of the Priority algorithms have been chosen).
@@ -94,7 +103,7 @@ Project output:
 
 | GUI interface                |
 |------------------------------|
-| ![Image](Image/Picture3.png) |
+| ![Image](Image/Picture6.png) |
 
 | Process history                | Average waiting time         |
 |--------------------------------|------------------------------|
@@ -110,13 +119,13 @@ Project output:
 
 Project output:
 
-| GUI interface                  |
-|--------------------------------|
-| ![Image](Image/Picture9.png)   |
+| GUI interface                    |
+|----------------------------------|
+| ![Image](Image/Picture9.png)     |
 
-| Process history                | Average waiting time         |
-|--------------------------------|------------------------------|
-| ![Image](Image/Picture10.png)  | ![Image](Image/Picture11.png) |
+| Process history                  | Average waiting time         |
+|----------------------------------|------------------------------|
+| ![Image](Image/Picture10.png)    | ![Image](Image/Picture11.png) |
 
 ## 3. **RIORITY PRE-EMPTIVE:**
 - Input:
@@ -133,11 +142,11 @@ Project output:
 	
 Project output:
 
-| GUI interface                |
-|------------------------------|
-| ![Image](Image/Picture12.png) |
+| GUI interface                  |
+|--------------------------------|
+| ![Image](Image/Picture12.png)  |
 
-|  Process history              | Average waiting time         |
+| Process history               | Average waiting time         |
 |-------------------------------|------------------------------|
 | ![Image](Image/Picture13.png) | ![Image](Image/Picture14.png) |
 
@@ -158,13 +167,13 @@ Example of :
   
 Project output:
 
-| GUI interface                |
-|------------------------------|
+| GUI interface                 |
+|-------------------------------|
 | ![Image](Image/Picture15.png) |
 
-|  Process history              | Average waiting time         |
-|-------------------------------|------------------------------|
-| ![Image](Image/Picture16.png) | ![Image](Image/Picture17.png) |
+| Process history                | Average waiting time         |
+|--------------------------------|------------------------------|
+| ![Image](Image/Picture16.png)  | ![Image](Image/Picture17.png) |
 
 ## 5. **SHORTEST JOB FIRST PRE-EMPTIVE:**
 Example of :
@@ -182,13 +191,13 @@ Example of :
 
 Project output:
 
-| GUI interface                |
-|------------------------------|
-| ![Image](Image/Picture18.png) |
+| GUI interface                   |
+|---------------------------------|
+| ![Image](Image/Picture18.png)   |
 
-|  Process history              | Average waiting time         |
-|-------------------------------|------------------------------|
-| ![Image](Image/Picture20.png) | ![Image](Image/Picture19.png) |
+| Process history                | Average waiting time         |
+|--------------------------------|------------------------------|
+| ![Image](Image/Picture20.png)  | ![Image](Image/Picture19.png) |
 
 
 ## 6. **SHORTEST JOB FIRST NON-PRE-EMPTIVE:**
