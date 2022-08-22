@@ -2,9 +2,7 @@
 •	Developed process Scheduling algorithms(FCFS, Round Robin, Priority Pre-emptive and non Pre-emptive , Shortest job first Pre-emptive and non Pre-emptive).
 •	Created GUI using C++ QT framework to take processes data and algorithms then show the order and time taken by each process (Gantt Chart) and Average waiting time. 
 
-# Overview
-
-# Background
+#  Background
 ## What is the Process Scheduling?
 The process scheduling is the manager handles the removal of the running process from the CPU and selects another process on the Ready Queue using a particular strategy, it‘s an important part of Multiprogramming .which allows more processes to be loaded to the memory for execution at the same time and the loaded processes share the CPU by multiplexing.
 
@@ -88,17 +86,19 @@ This algorithm gives the shortest process higher priority, but as it Is non-pre-
   - All have the same burst time 4 s.
 - Expected output:
   - P4 then P3 then P1 the P2
-  - The average waiting time is =segma (finish time-arrival time-burst time)for all process/(number of process) = (p1(12-2-4)+p2(16-3-4)+p3(8-1-4)+p4(4-0-4))/4=4.5. 
+  - The average waiting time: sigma(finish time-arrival time-burst time)for all process/(number of process) = (p1(12-2-4)+p2(16-3-4)+p3(8-1-4)+p4(4-0-4))/4=4.5. 
 
 
 
 Project output:
 
-| GUI interface                | Process history              | Average waiting time         |
-|------------------------------|------------------------------|------------------------------|
-| ![Image](Image/Picture3.png) | ![Image](Image/Picture7.png) | ![Image](Image/Picture8.png) |
+| GUI interface                |
+|------------------------------|
+| ![Image](Image/Picture3.png) |
 
-
+| Process history                | Average waiting time         |
+|--------------------------------|------------------------------|
+| ![Image](Image/Picture7.png)   | ![Image](Image/Picture8.png) |
 
 ## 2. **ROUND ROBIN:**
 - Input:
@@ -110,15 +110,17 @@ Project output:
 
 Project output:
 
-| GUI interface                | Process history               | Average waiting time          |
-|------------------------------|-------------------------------|-------------------------------|
-| ![Image](Image/Picture9.png) | ![Image](Image/Picture10.png) | ![Image](Image/Picture11.png) |
+| GUI interface                  |
+|--------------------------------|
+| ![Image](Image/Picture9.png)   |
 
-
+| Process history                | Average waiting time         |
+|--------------------------------|------------------------------|
+| ![Image](Image/Picture10.png)  | ![Image](Image/Picture11.png) |
 
 ## 3. **RIORITY PRE-EMPTIVE:**
 - Input:
-  - P1 arrived at time 0  PRIORITY 1,= 
+  - P1 arrived at time 0  PRIORITY 1
   - P2 arrived a time 1 PRIORITY 0
   - P3 arrived at time 2 PRIORITY 2 
   - All have the same burst time 4 s
@@ -127,15 +129,17 @@ Project output:
   - At time 0: P1 the only one so would start executing.
   - At time 1: P2 arrives and has higher PRIORITY. So, it would take the processor.
   - At time 2: P3 arrives, and it has lower PRIORITY than p2 which executes on the processor. So, it would wait till p2 finishes then search for the next higher PRIORITY which is p1 than p3.
-  - The average waiting time is =segma (finish time-arrival time-burst time)for all process/(number of process) = (p1(8-0-4)+p2(5-1-4)+p3(12-2-4))/3=3.3333.
+  - The average waiting time: sigma(finish time-arrival time-burst time)for all process/(number of process) = (p1(8-0-4)+p2(5-1-4)+p3(12-2-4))/3=3.3333.
 	
 Project output:
 
-| GUI interface                 | Process history               | Average waiting time          |
-|-------------------------------|-------------------------------|-------------------------------|
-| ![Image](Image/Picture12.png) | ![Image](Image/Picture13.png) | ![Image](Image/Picture14.png) |
+| GUI interface                |
+|------------------------------|
+| ![Image](Image/Picture12.png) |
 
-
+|  Process history              | Average waiting time         |
+|-------------------------------|------------------------------|
+| ![Image](Image/Picture13.png) | ![Image](Image/Picture14.png) |
 
 ## 4. **PRIORITY NON-PRE-EMPTIVE:**
 Example of :
@@ -149,16 +153,18 @@ Example of :
   - At time 5: (p1 size =4)>(p3 size =1)p3 execute.
   - At time 6: p3 finish (p1 size =4) < (p2 size =7) p1 execute.
   - At time 10: p2 execute.
-  - the average waiting time is =segma (finish time-arrival time-burst time) for all process/(number of process) = (p1(10-0-9)+p2(17-2-7)+p3(6-5-1))/3=3.
+  - the average waiting time: sigma(finish time-arrival time-burst time) for all process/(number of process) = (p1(10-0-9)+p2(17-2-7)+p3(6-5-1))/3=3.
 
   
 Project output:
 
-| GUI interface                 | Process history               | Average waiting time          |
-|-------------------------------|-------------------------------|-------------------------------|
-| ![Image](Image/Picture15.png) | ![Image](Image/Picture16.png) | ![Image](Image/Picture17.png) |
+| GUI interface                |
+|------------------------------|
+| ![Image](Image/Picture15.png) |
 
-
+|  Process history              | Average waiting time         |
+|-------------------------------|------------------------------|
+| ![Image](Image/Picture16.png) | ![Image](Image/Picture17.png) |
 
 ## 5. **SHORTEST JOB FIRST PRE-EMPTIVE:**
 Example of :
@@ -172,13 +178,17 @@ Example of :
   - At time 5: (p1 size =4)>(p3 size =1)p3 execute.
   - At time 6: p3 finish (p1 size =4) < (p2 size =7) p1 execute.
   - At time 10: p2 execute.
-  - the average time is =segma (finish time-arrival time-burst time) for all process/(number of process) = (p1(10-0-9)+p2(17-2-7)+p3(6-5-1))/3=3.
+  - the average time: sigma(finish time-arrival time-burst time) for all process/(number of process) = (p1(10-0-9)+p2(17-2-7)+p3(6-5-1))/3=3.
 
 Project output:
 
-| GUI interface                 | Process history               | Average waiting time          |
-|-------------------------------|-------------------------------|-------------------------------|
-| ![Image](Image/Picture18.png) | ![Image](Image/Picture20.png) | ![Image](Image/Picture19.png) |
+| GUI interface                |
+|------------------------------|
+| ![Image](Image/Picture18.png) |
+
+|  Process history              | Average waiting time         |
+|-------------------------------|------------------------------|
+| ![Image](Image/Picture20.png) | ![Image](Image/Picture19.png) |
 
 
 ## 6. **SHORTEST JOB FIRST NON-PRE-EMPTIVE:**
@@ -190,11 +200,14 @@ Project output:
   - at time 0: p1 execute till end 
   - at time 9: (p2 size =7)>(p3 size=1) p3 execute till ends.
   - at time 10: p2 execute.
-  - the average time is =segma (finish time-arrival time-burst time) for all process/(number of process) =(p1(9-0-9)+p2(17-2-7)+p3(10-5-1))/3=4.
+  - the average time: sigma(finish time-arrival time-burst time) for all process/(number of process) =(p1(9-0-9)+p2(17-2-7)+p3(10-5-1))/3=4.
 
 Project output:
 
-| GUI interface                | Process history              | Average waiting time         |
-|------------------------------|------------------------------|------------------------------|
-| ![Image](Image/Picture21.png) | ![Image](Image/Picture22.png) | ![Image](Image/Picture23.png) |
+| GUI interface                |
+|------------------------------|
+| ![Image](Image/Picture21.png) |
 
+|  Process history              | Average waiting time         |
+|-------------------------------|------------------------------|
+| ![Image](Image/Picture22.png) | ![Image](Image/Picture23.png) |
