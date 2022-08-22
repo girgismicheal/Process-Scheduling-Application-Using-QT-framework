@@ -60,17 +60,14 @@ This algorithm gives the shortest process higher priority, but as it Is non-pre-
 - Class GUI responsible for interfacing.
 
 ## Gui
-| GUI interface                | Process history              | Average waiting time         |
-|------------------------------|------------------------------|------------------------------|
-| ![Image](Image/Picture3.png) | ![Image](Image/Picture4.png) | ![Image](Image/Picture5.png) |
 
 | GUI interface                |
 |------------------------------|
 | ![Image](Image/Picture3.png) |
 
-| Process history                | Average waiting time         |
-|--------------------------------|------------------------------|
-| ![Image](Image/Picture7.png)   | ![Image](Image/Picture8.png) |
+| Process history              | Average waiting time         |
+|------------------------------|------------------------------|
+| ![Image](Image/Picture4.png) | ![Image](Image/Picture5.png) |
 
 
 ### User Guide
